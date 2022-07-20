@@ -1,0 +1,432 @@
+Wed Oct 20 14:14:50 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS1X/ --sample=ST2107FLLS1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer0-20x_01.jpg
+Wed Oct 20 14:18:53 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS2X/ --sample=ST2107FLLS2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer1-20x_02.jpg
+Wed Oct 20 14:22:23 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS3X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS3X/ --sample=ST2107FLLS3X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer2-20x_03.jpg
+Wed Oct 20 14:26:16 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS4X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS4X/ --sample=ST2107FLLS4X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer3-20x_04.jpg
+Wed Oct 20 15:33:00 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS1X/ --sample=ST2107FLLS1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer0-20x_01.jpg
+Wed Oct 20 15:56:20 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS1X/ --sample=ST2107FLLS1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer0-20x_01.jpg
+Wed Oct 20 15:56:27 CST 2021
+Successful
+Wed Oct 20 15:58:13 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS1X/ --sample=ST2107FLLS1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer0-20x_01.jpg
+Wed Oct 20 15:58:21 CST 2021
+Successful
+Wed Oct 20 16:00:12 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS1X/ --sample=ST2107FLLS1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer0-20x_01.jpg
+Wed Oct 20 16:00:19 CST 2021
+Successful
+Wed Oct 20 16:00:43 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS2X/ --sample=ST2107FLLS2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer1-20x_02.jpg
+Wed Oct 20 16:00:50 CST 2021
+Successful
+Wed Oct 20 16:01:16 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS3X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS3X/ --sample=ST2107FLLS3X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer2-20x_03.jpg
+Wed Oct 20 16:01:24 CST 2021
+Successful
+Wed Oct 20 16:01:49 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS4X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS4X/ --sample=ST2107FLLS4X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer3-20x_04.jpg
+Wed Oct 20 16:01:57 CST 2021
+Successful
+Wed Oct 20 16:52:21 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS1X/ --sample=ST2107FLLS1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer0-20x_01.jpg
+Wed Oct 20 16:52:28 CST 2021
+Successful
+Wed Oct 20 16:52:51 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS2X/ --sample=ST2107FLLS2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer1-20x_02.jpg
+Wed Oct 20 16:52:58 CST 2021
+Successful
+Wed Oct 20 16:53:24 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS3X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS3X/ --sample=ST2107FLLS3X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer2-20x_03.jpg
+Wed Oct 20 16:53:31 CST 2021
+Successful
+Wed Oct 20 16:53:57 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS4X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS4X/ --sample=ST2107FLLS4X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=128 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer3-20x_04.jpg
+Wed Oct 20 16:54:04 CST 2021
+Successful
+Fri Dec 3 23:11:49 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2110CLLX1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2110CLLX1X/ --sample=ST2110CLLX1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer0-20x_01-XueLi.jpg
+Fri Dec 3 23:25:11 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2110CLLX1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2110CLLX1X/ --sample=ST2110CLLX1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer0-20x_01-XueLi.jpg
+Sat Dec 4 00:49:14 CST 2021
+Successful
+Sat Dec 4 12:04:09 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2110CLLX2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2110CLLX2X/ --sample=ST2110CLLX2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer1-20x_02-XueLi.jpg
+Sat Dec 4 13:44:10 CST 2021
+Successful
+Sat Dec 4 20:25:23 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2110CLLX1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2110CLLX1X/ --sample=ST2110CLLX1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer0-20x_01-XueLi.jpg
+Sat Dec 4 21:26:49 CST 2021
+Successful
+Sat Dec 4 22:12:19 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2110CLLX1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2110CLLX1X/ --sample=ST2110CLLX1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer0-20x_01-XueLi.jpg
+Sat Dec 4 23:31:14 CST 2021
+Successful
+Sun Dec 5 04:17:23 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2110CLLX2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2110CLLX2X/ --sample=ST2110CLLX2X --transcriptome= --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer1-20x_02-XueLi.jpg
+Sun Dec 5 04:17:24 CST 2021
+Failed
+Sun Dec 5 09:31:15 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2110CLLX3X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2110CLLX3X/ --sample=ST2110CLLX3X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer2-20x_03-XueLi.jpg
+Sun Dec 5 12:06:37 CST 2021
+Successful
+Sun Dec 5 21:14:59 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2110CLLX4X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2110CLLX4X/ --sample=ST2110CLLX4X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer3-20x_04-XueLi.jpg
+Sun Dec 5 23:24:17 CST 2021
+Successful
+Mon Dec 6 10:25:26 CST 2021
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2110CLLX2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2110CLLX2X/ --sample=ST2110CLLX2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/Image_Layer1-20x_02-XueLi.jpg
+Mon Dec 6 12:32:02 CST 2021
+Successful
+Wed Jan 5 09:22:11 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX1X/ --sample=ST2112CLLX1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048A-mod.jpg
+Wed Jan 5 09:54:57 CST 2022
+Successful
+Wed Jan 5 10:52:11 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX2X/ --sample=ST2112CLLX2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048B-mod.jpg
+Wed Jan 5 10:52:49 CST 2022
+Failed
+Wed Jan 5 10:52:57 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX3X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX3X/ --sample=ST2112CLLX3X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048C-mod.jpg
+Wed Jan 5 10:52:58 CST 2022
+Failed
+Wed Jan 5 10:53:06 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX4X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX4X/ --sample=ST2112CLLX4X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048D-mod.jpg
+Wed Jan 5 10:53:07 CST 2022
+Failed
+Wed Jan 5 13:28:42 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX1X/ --sample=ST2112CLLX1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048A-mod.jpg
+Wed Jan 5 13:57:49 CST 2022
+Successful
+Wed Jan 5 14:53:07 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX2X/ --sample=ST2112CLLX2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048B-mod.jpg
+Wed Jan 5 14:53:13 CST 2022
+Failed
+Wed Jan 5 14:53:22 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX3X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX3X/ --sample=ST2112CLLX3X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048C-mod.jpg
+Wed Jan 5 14:53:23 CST 2022
+Failed
+Wed Jan 5 14:53:31 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX4X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX4X/ --sample=ST2112CLLX4X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048D-mod.jpg
+Wed Jan 5 14:53:32 CST 2022
+Failed
+Wed Jan 5 16:24:01 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX1X/ --sample=ST2112CLLX1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048A-mod.jpg
+Wed Jan 5 16:53:35 CST 2022
+Successful
+Wed Jan 5 17:58:01 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX2X/ --sample=ST2112CLLX2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048B-mod.jpg
+Wed Jan 5 17:58:10 CST 2022
+Failed
+Wed Jan 5 17:58:19 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX3X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX3X/ --sample=ST2112CLLX3X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048C-mod.jpg
+Wed Jan 5 17:58:20 CST 2022
+Failed
+Wed Jan 5 17:58:28 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX4X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX4X/ --sample=ST2112CLLX4X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048D-mod.jpg
+Wed Jan 5 17:58:29 CST 2022
+Failed
+Wed Jan 5 19:05:16 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX1X/ --sample=ST2112CLLX1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048A-mod.jpg
+Wed Jan 5 19:34:30 CST 2022
+Successful
+Wed Jan 5 20:29:50 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX2X/ --sample=ST2112CLLX2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048B-mod.jpg
+Wed Jan 5 20:30:32 CST 2022
+Failed
+Wed Jan 5 20:30:39 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX3X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX3X/ --sample=ST2112CLLX3X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048C-mod.jpg
+Wed Jan 5 20:30:41 CST 2022
+Failed
+Wed Jan 5 20:30:48 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX4X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX4X/ --sample=ST2112CLLX4X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048D-mod.jpg
+Wed Jan 5 20:30:50 CST 2022
+Failed
+Wed Jan 5 23:34:57 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX1X/ --sample=ST2112CLLX1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048A-mod.jpg
+Wed Jan 5 23:35:31 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX2X/ --sample=ST2112CLLX2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048B-mod.jpg
+Wed Jan 5 23:36:06 CST 2022
+Failed
+Thu Jan 6 00:08:18 CST 2022
+Successful
+Thu Jan 6 00:12:48 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX2X/ --sample=ST2112CLLX2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048B-mod.jpg
+Thu Jan 6 00:12:54 CST 2022
+Failed
+Thu Jan 6 00:13:49 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX2X/ --sample=ST2112CLLX2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048B-mod.jpg
+Thu Jan 6 00:13:55 CST 2022
+Failed
+Thu Jan 6 00:14:42 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX3X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX3X/ --sample=ST2112CLLX3X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048C-mod.jpg
+Thu Jan 6 00:14:44 CST 2022
+Failed
+Thu Jan 6 00:17:46 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX3X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX3X/ --sample=ST2112CLLX3X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1054C-mod.jpg
+Thu Jan 6 00:17:47 CST 2022
+Failed
+Thu Jan 6 00:18:18 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX3X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX3X/ --sample=ST2112CLLX3X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1054C-mod.jpg
+Thu Jan 6 00:18:25 CST 2022
+Failed
+Thu Jan 6 00:18:47 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX4X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX4X/ --sample=ST2112CLLX4X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1054D-mod.jpg
+Thu Jan 6 00:18:53 CST 2022
+Failed
+Thu Jan 6 09:54:05 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX4X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX4X/ --sample=ST2112CLLX4X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1054D-mod.jpg
+Thu Jan 6 09:54:12 CST 2022
+Failed
+Thu Jan 6 09:54:30 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX4X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX4X/ --sample=ST2112CLLX4X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1054D-mod.jpg
+Thu Jan 6 09:54:34 CST 2022
+Failed
+Wed Jan 19 11:18:28 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS1X/ --sample=ST2107FLLS1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048A-mod.jpg
+Wed Jan 19 11:22:00 CST 2022
+Successful
+Wed Jan 19 11:22:02 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS2X/ --sample=ST2107FLLS2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048B-mod.jpg
+Wed Jan 19 11:25:29 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS1X/ --sample=ST2107FLLS1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048A-mod.jpg
+Wed Jan 19 11:28:08 CST 2022
+Successful
+Wed Jan 19 12:04:09 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS1X/ --sample=ST2107FLLS1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048A-mod.jpg
+Wed Jan 19 12:06:53 CST 2022
+Successful
+Thu Jan 20 21:21:44 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2103ZJCR1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2103ZJCR1X/ --sample=ST2103ZJCR1X --transcriptome= --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2103ZJCR1X_P53-12-A.jpg
+Thu Jan 20 21:23:06 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2103ZJCR1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2103ZJCR1X/ --sample=ST2103ZJCR1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2103ZJCR1X_P53-12-A.jpg
+Thu Jan 20 22:20:26 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2103ZJCR1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2103ZJCR1X/ --sample=ST2103ZJCR1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2103ZJCR1X_P53-12-A.jpg
+Fri Jan 21 04:37:27 CST 2022
+Successful
+Fri Jan 21 07:02:31 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2103ZJCR2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2103ZJCR2X/ --sample=ST2103ZJCR2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2103ZJCR2X_P53-18-B.jpg
+Fri Jan 21 12:28:58 CST 2022
+Successful
+Sun Feb 6 10:09:51 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS1X/ --sample=ST2107FLLS1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2103ZJCR1X_P53-12-A.jpg
+Sun Feb 6 10:15:15 CST 2022
+Successful
+Sun Feb 6 10:49:14 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS1X/ --sample=ST2107FLLS1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2103ZJCR1X_P53-12-A.jpg
+Sun Feb 6 10:54:13 CST 2022
+Successful
+Wed Feb 9 21:04:39 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2201CLLX1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2201CLLX1X/ --sample=ST2201CLLX1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=32 --localmem=256 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/A-Image_02_Layer0-10x_01.jpg
+Wed Feb 9 21:05:40 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2201CLLX2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2201CLLX2X/ --sample=ST2201CLLX2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=32 --localmem=256 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/B-Image_02_Layer1-10x_02.jpg
+Thu Feb 10 01:28:18 CST 2022
+Successful
+Thu Feb 10 04:59:16 CST 2022
+Successful
+Thu Feb 10 08:28:12 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2201CLLX3X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2201CLLX3X/ --sample=ST2201CLLX3X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=32 --localmem=256 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/C-Image_02_Layer2-10x_03.jpg
+Thu Feb 10 12:30:13 CST 2022
+Successful
+Fri Feb 11 10:28:52 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2201CLLX4X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2201CLLX4X/ --sample=ST2201CLLX4X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=256 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/D-Image_02_Layer3-10x_04.jpg
+Fri Feb 11 10:29:49 CST 2022
+Failed
+Mon Feb 21 10:48:23 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS1X/ --sample=ST2107FLLS1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=256 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2103ZJCR1X_P53-12-A.jpg
+Mon Feb 21 10:52:49 CST 2022
+Successful
+Mon Feb 21 11:57:52 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS1X/ --sample=ST2107FLLS1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=256 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2103ZJCR1X_P53-12-A.jpg
+Mon Feb 21 12:02:17 CST 2022
+Successful
+Mon Feb 21 12:18:57 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2107FLLS2X/ --sample=ST2107FLLS2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=256 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2103ZJCR2X_P53-18-B.jpg
+Mon Feb 21 12:22:56 CST 2022
+Successful
+Thu Feb 24 15:50:50 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX2X/ --sample=ST2112CLLX2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=32 --localmem=256 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048B-mod.jpg
+Thu Feb 24 15:50:50 CST 2022
+Failed
+Thu Feb 24 15:52:13 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX2X/ --sample=ST2112CLLX2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=32 --localmem=256 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048B-mod.jpg
+Thu Feb 24 15:52:13 CST 2022
+Failed
+Thu Feb 24 15:52:45 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2112CLLX2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2112CLLX2X/ --sample=ST2112CLLX2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=32 --localmem=256 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/M1048B-mod.jpg
+Thu Feb 24 15:53:27 CST 2022
+Failed
+Tue Mar 8 12:46:18 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2201SBOY1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2201SBOY1X/ --sample=ST2201SBOY1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2201SBOY1X.jpg
+Tue Mar 8 16:20:18 CST 2022
+Successful
+Tue Mar 8 16:43:08 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2201SBWN1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2201SBWN1X/ --sample=ST2201SBWN1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2201SBWN1X.jpg
+Tue Mar 8 19:45:31 CST 2022
+Successful
+Wed Mar 9 11:59:31 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2201SBWN2X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2201SBWN2X/ --sample=ST2201SBWN2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2201SBWN2X.jpg
+Wed Mar 9 14:10:40 CST 2022
+Successful
+Wed Mar 9 15:49:53 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2201SBWN3X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2201SBWN3X/ --sample=ST2201SBWN3X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-mm10-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2201SBWN3X.jpg
+Wed Mar 9 19:05:35 CST 2022
+Successful
+Thu Apr 21 14:19:17 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2201SBWN1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2201SBWN1X/ --sample=ST2201SBWN1X --transcriptome= --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2201SBWN1X.jpg
+Thu Apr 21 14:19:50 CST 2022
+Failed
