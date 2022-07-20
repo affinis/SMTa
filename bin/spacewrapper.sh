@@ -69,7 +69,7 @@ cd $SAMPLE/outs/
 
 if [ "$MODE" == "SMT" ]
 then
-	$MIPMAIN -i possorted_genome_bam.bam -u 1 -f 0 -t $CORE
+	$MIPMAIN -i possorted_genome_bam.bam -u 1 -f 0 -t $CORE -d $NT
 	python3 $GENMATRIX > SMT_summary.txt
 fi
 

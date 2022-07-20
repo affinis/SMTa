@@ -9,11 +9,7 @@ then
 fi
 
 
-NT_BLASTDB_PATH="/data/LyuLin/Download/database"
-MICROBE_GENUS_LIST="/data/LyuLin/Download/ncbi-taxon-names/MicroTaxidList"
 THREADS=32
-MAPPING="/data/LyuLin/Download/Mappings/taxid2taxon.tsv"
-Rmerge=/data/LyuLin/Scripts/merge.R
 FASTA=0
 
 HELP=`cat <<EOF
@@ -26,7 +22,7 @@ HELP=`cat <<EOF
 EOF
 `
 
-while getopts hi:t:u:f: options
+while getopts hi:t:u:f:d: options
 do
 	case $options in
 	h)
@@ -44,6 +40,9 @@ do
 		;;
 	f)
 		FASTA=$OPTARG
+		;;
+	d)
+		DB=$OPTARG
 		;;
 	*)
 		echo "$HELP"
@@ -70,13 +69,11 @@ then
 fi
 
 #blast against nt database
-blastn -query ${BAM%.bam}.unmapped.fasta -db $NT_BLASTDB_PATH/nt -qcov_hsp_perc 60 -perc_identity 80 -sorthits 4 -outfmt '6 qseqid staxid stitle length evalue pident qcovus' -max_target_seqs 1 -max_hsps 1 -culling_limit 1 -num_threads $THREADS > unmapped.nonpolyB.blast.tsv
+blastn -query ${BAM%.bam}.unmapped.fasta -db $DB -qcov_hsp_perc 60 -perc_identity 80 -sorthits 4 -outfmt '6 qseqid staxid stitle length evalue pident qcovus' -max_target_seqs 1 -max_hsps 1 -culling_limit 1 -num_threads $THREADS > unmapped.nonpolyB.blast.tsv
 
 #screen for microbe blast hits
-#cat unmapped.nonpolyB.blast.tsv | awk -F $'\t' '$2!="10090"&&$2!="9606"&&$2!=9598&&$2!=10092{print $0}' > unmapped.nonpolyB.blast.cleaned.tsv
-cat unmapped.nonpolyB.blast.tsv | cut -f 2 | qtaxa > ${BAM%.bam}.taxa.tsv
+cat unmapped.nonpolyB.blast.tsv | cut -f 2 | $QTAXA > ${BAM%.bam}.taxa.tsv
 paste unmapped.nonpolyB.blast.tsv ${BAM%.bam}.taxa.tsv > ${BAM%.bam}.merged.tsv
-#cat $MICROBE_GENUS_LIST | parallel -I {} awk\ \-F\ \$\'\\t\'\ \-v\ var\=\{\}\ \'\$2\=\=var\{print\ \$0\}\'\ unmapped.nonpolyB.blast.cleaned.tsv >> unmapped.nonpolyB.blast.microbe.tsv
 
 \
 
@@ -92,8 +89,4 @@ cat ${BAM%.bam}.merged.tsv | grep -E 'kingdom_Fungi|superkingdom_Archaea|superki
 cat ${BAM%.bam}.merged.tsv | grep 'Eukaryota' | grep -v -E 'Metazoa|Viridiplantae|Fungi' >> ${BAM%.bam}.merged.microbe.tsv.tmp
 cat ${BAM%.bam}.merged.microbe.tsv.tmp > ${BAM%.bam}.merged.microbe.tsv
 rm ${BAM%.bam}.merged.microbe.tsv.tmp
-#Rscript --vanilla $Rmerge -i unmapped.nonpolyB.blast.microbe.tsv -r $MAPPING -t tsv -f taxid
 
-#genrate genus list
-#cat $MICROBE_GENUS_LIST | parallel -I {} grep -w -o {} unmapped.nonpolyB.blast.tsv >> unmapped.nonpolyB.blast.genus.list
-#cat unmapped.nonpolyB.blast.genus.list.0 | sort | uniq -c | sort -nr > unmapped.nonpolyB.blast.genus.list
