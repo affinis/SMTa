@@ -10,12 +10,13 @@ SMTa depends on several toolkits, please install/download following tool/databas
 4. python 3.7.6 or higher
 
 ## install
+```Bash
 git clone https://github.com/affinis/SMTa.git
 
 cd SMTa
 
 bash install_SMTa.sh -n $PATH_OF_YOUR_NT_DATABASE
-
+```
 ## test run
 
 ## run SMTa with your own data start from fastq
