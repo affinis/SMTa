@@ -12,9 +12,7 @@ SMTa depends on several toolkits, please install/download following tool/databas
 ## install
 ```Bash
 git clone https://github.com/affinis/SMTa.git
-
 cd SMTa
-
 bash install_SMTa.sh -n $PATH_OF_YOUR_NT_DATABASE
 ```
 ## test run
