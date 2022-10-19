@@ -430,3 +430,21 @@ spaceranger arguments set:
 /data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2201SBWN1X --fastqs=/data/LyuLin/Scripts/spacewrapper3.0/input/ST2201SBWN1X/ --sample=ST2201SBWN1X --transcriptome= --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/spacewrapper3.0/images/ST2201SBWN1X.jpg
 Thu Apr 21 14:19:50 CST 2022
 Failed
+Wed Jul 20 18:52:08 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS2X --fastqs=/data/LyuLin/Scripts/SMTa/input/ST2107FLLS2X/ --sample=ST2107FLLS2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/SMTa/test/tissue_hires_image.png
+Wed Jul 20 18:52:54 CST 2022
+Failed
+Wed Jul 20 18:54:55 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS2X --fastqs=/data/LyuLin/Scripts/SMTa/input/ST2107FLLS2X/ --sample=ST2107FLLS2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/SMTa/test/test.jpg
+Wed Jul 20 18:59:23 CST 2022
+Successful
+Wed Jul 20 19:11:00 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-1.0.0/spaceranger count --id=ST2107FLLS2X --fastqs=/data/LyuLin/Scripts/SMTa/input/ST2107FLLS2X/ --sample=ST2107FLLS2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide --image=/data/LyuLin/Scripts/SMTa/test/test.jpg
+Wed Jul 20 19:14:36 CST 2022
+Successful

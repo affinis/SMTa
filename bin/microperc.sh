@@ -1,7 +1,7 @@
 #!/bin/bash
 
-set -e
-set -u
+#set -e
+#set -u
 
 if [ -f ./unmapped.nonpolyB.blast.microbe.tsv ]
 then
@@ -11,6 +11,13 @@ fi
 
 THREADS=32
 FASTA=0
+SELF="`realpath $0`"
+QTAXA="`dirname $SELF`/querytaxa.py `dirname $SELF`"
+
+#echo "$SELF"
+#echo "$QTAXA"
+
+#exit
 
 HELP=`cat <<EOF
     mip [opt] <args>
@@ -67,6 +74,12 @@ if [ "$FASTA" == "1" ]
 then
 	exit
 fi
+
+if [ -z $DB ]
+then
+	DB=/data/LyuLin/Download/database/nt
+fi
+
 
 #blast against nt database
 blastn -query ${BAM%.bam}.unmapped.fasta -db $DB -qcov_hsp_perc 60 -perc_identity 80 -sorthits 4 -outfmt '6 qseqid staxid stitle length evalue pident qcovus' -max_target_seqs 1 -max_hsps 1 -culling_limit 1 -num_threads $THREADS > unmapped.nonpolyB.blast.tsv
