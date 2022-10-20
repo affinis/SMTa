@@ -13,7 +13,7 @@ SMTa depends on several toolkits, please install/download following tool/databas
 ```Bash
 git clone https://github.com/affinis/SMTa.git
 cd SMTa
-bash install_SMTa.sh -n $ABSOLUTE_PATH_OF_NT_DATABASE -b $ABSOLUTE_PATH_OF_BLASTN -S $ABSOLUTE_PATH_OF_SPACERANGER
+bash install_SMTa.sh -n $ABSOLUTE_PATH_OF_NT_DATABASE -b $ABSOLUTE_PATH_OF_BLASTN -s $ABSOLUTE_PATH_OF_SPACERANGER
 ```
 ## test run
 
