@@ -16,6 +16,9 @@ cd SMTa
 bash install_SMTa.sh -n $ABSOLUTE_PATH_OF_NT_DATABASE -b $ABSOLUTE_PATH_OF_BLASTN -s $ABSOLUTE_PATH_OF_SPACERANGER
 ```
 ## test run
+```Bash
+./run_SMTa_test.sh
+```
 
 ## run SMTa with your own data start from fastq
 
