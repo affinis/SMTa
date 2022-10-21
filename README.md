@@ -6,6 +6,10 @@ SMTa depends on several toolkits, please install/download following tool/databas
 
 1. spaceranger1.0/2.0 (see https://support.10xgenomics.com/spatial-gene-expression/software/downloads/latest)
 2. blastn 2.10.1+ and NT blast database (see https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
+   if you have conda on server, you can install blast with desired version directly as following:
+```Bash
+conda install blast=2.10.1 -c bioconda
+```
 3. Seurat 4.0 in R (this require R to be updated to 4.0.0 or higher)
 4. python 3.7.6 or higher
 
