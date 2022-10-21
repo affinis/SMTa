@@ -14,13 +14,13 @@ echo "spaceranger path $SPR_PATH"
 sed -i "s|^SAPMLES=.*|SAPMLES=$SPR_PATH/external/spaceranger_tiny_inputs/fastqs|g" samples.info
 sed -i -e "s|^A=.*|A=tinytest|g" -e "s|^A_image=.*|A_image=$SPR_PATH/external/spaceranger_tiny_inputs/image/tinyimage.jpg|g" samples.info
 
-if [ "`grep -o -m 1 '[0-9]\.[0-9]\.[0-9]' <<< $SPR_PATH`" = "1.0.0" ]
+if [ "`grep -o -m 1 'spaceranger-[0-9]' <<< $SPR_PATH`" = "spaceranger-1" ]
 then
-	echo "Using spaceranger 1.0.0"
+	echo "Using spaceranger 1.0.0 ref"
 	sed -i "s|^Reference=.*|Reference=$SPR_PATH/external/spaceranger_tiny_ref/1.0.0|g" samples.info
-elif [ "`grep -o -m 1 '[0-9]\.[0-9]\.[0-9]' <<< $SPR_PATH`" = "2.0.0" ]
+elif [ "`grep -o -m 1 'spaceranger-[0-9]' <<< $SPR_PATH`" = "spaceranger-2" ]
 then
-	echo "Using spaceranger 2.0.0"
+	echo "Using spaceranger 2.0.0 ref"
 	sed -i "s|^Reference=.*|Reference=$SPR_PATH/external/spaceranger_tiny_ref|g" samples.info
 else
 	echo "tiny reference of spaceranger not found, you may provide an incorrect spaceranger path while installing"
@@ -39,4 +39,4 @@ bash src/main.sh
 
 sed -i "s|^SAPMLES=.*|SAPMLES=|g" samples.info
 sed -i -e "s|^A=.*|A=|g" -e "s|^A_image=||g" samples.info
-sed -i "s|^Reference=.*|Reference=$SPR_PATH/external/spaceranger_tiny_ref/1.0.0|g" samples.info
+sed -i "s|^Reference=.*|Reference=|g" samples.info
