@@ -55,7 +55,7 @@ then
 	python3 $GENMATRIX > SMT_summary.txt
 fi
 
-$PARSER
+#$PARSER
 
 exit
 #echo -e "spaceranger arguments set:\n$SPACERANGER count --id=$SAMPLE --fastqs=$INPUT_DIR/$SAMPLE/ --sample=$SAMPLE --transcriptome=$REF_APP --localcores=$CORE --localmem=$MEM --unknown-slide --image=$2" >> run.info
