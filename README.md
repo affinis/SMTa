@@ -16,6 +16,7 @@ cd SMTa
 bash install_SMTa.sh -n $ABSOLUTE_PATH_OF_NT_DATABASE -b $ABSOLUTE_PATH_OF_BLASTN -s $ABSOLUTE_PATH_OF_SPACERANGER
 ```
 ## test run
+run test data under the directory of spaceranger software 
 ```Bash
 ./run_SMTa_test.sh
 ```
