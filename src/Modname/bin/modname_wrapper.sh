@@ -4,7 +4,9 @@ set -e
 set -u
 #set -o pipefail
 
-MODNAME=/data/LyuLin/Scripts/Modname/bin/modname.py
+SELF_PATH=`realpath $0`
+SELF_PATH=${SELF_PATH%/modname_wrapper.sh}
+MODNAME=$SELF_PATH/modname.py
 MODE="cif"
 
 date >> modname.log
