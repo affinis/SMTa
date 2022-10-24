@@ -42,13 +42,15 @@ REF=/tmpdata/LyuLin/Tools/spaceranger-1.3.1/external/spaceranger_tiny_ref/1.0.0
 #specify fastq path
 SAMPLE_PATH=/tmpdata/LyuLin/Tools/spaceranger-1.3.1/external/spaceranger_tiny_inputs/fastqs
 
-#first field of fastq file name, for example, "tinytest_S1_L001_R1.fastq.gz" and "tinytest_S1_L001_R2.fastq.gz" are fastqs of one sample, the sample ID is "tinytest".
+#first field of fastq file name, for example, "tinytest_S1_L001_R1.fastq.gz" and "tinytest_S1_L001_R2.fastq.gz" are 
+#fastqs of one sample, the sample ID is "tinytest".
 A="tinytest"
 B=""
 C=""
 D=""
 
-##specify image path, take care that for spaceranger2.0, it can reorient image automaticly while spaceranger1.0 not, for spaceranger1.0 you should reorient the image to put the sandglass-like shape at upleft position.
+#specify image path, take care that for spaceranger2.0, it can reorient image automaticly while spaceranger1.0 not, 
+#for spaceranger1.0 you should reorient the image to put the sandglass-like shape at upleft position.
 A_image=/tmpdata/LyuLin/Tools/spaceranger-1.3.1/external/spaceranger_tiny_inputs/image/tinyimage.jpg
 B_image=""
 C_image=""
