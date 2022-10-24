@@ -49,11 +49,11 @@ sed -i "s|^MAINPATH=.*|MAINPATH=$main_path|g" src/configs.conf
 sed -i "s|^NT=.*|NT=$nt|g" src/configs.conf
 sed -i "s|^BLASTN=.*|BLASTN=$blast|g" src/configs.conf
 
-if [ "`grep -o -m 1 'spaceranger-[0-9]\.[0-9]\.[0-9]' <<< $spaceranger`" = "spaceranger-1.0.0" ]
+if [ "`grep -o -m 1 'spaceranger-[0-9]' <<< $spaceranger`" = "spaceranger-1" ]
 then
 	sed -i "s|^SLIDE=.*|SLIDE='--unknown-slide'|g" src/configs.conf
 	sed -i "s|^SPACERANGER=.*|SPACERANGER=$spaceranger|g" src/configs.conf
-elif [ "`grep -o -m 1 'spaceranger-[0-9]\.[0-9]\.[0-9]' <<< $spaceranger`" = "spaceranger-2.0.0" ]
+elif [ "`grep -o -m 1 'spaceranger-[0-9]' <<< $spaceranger`" = "spaceranger-2" ]
 then
 	sed -i "s|^SLIDE=.*|SLIDE='--unknown-slide visium-1'|g" src/configs.conf
 	sed -i "s|^SPACERANGER=.*|SPACERANGER=$spaceranger|g" src/configs.conf
