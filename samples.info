@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #specify reference
-Reference=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_ref
+REF=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_ref
 
-SAPMLES=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_inputs/fastqs
+SAMPLE_PATH=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_inputs/fastqs
 
 A=tinytest
 B=""

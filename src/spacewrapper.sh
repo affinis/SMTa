@@ -5,7 +5,8 @@
 #set -o pipefail
 
 SELF_PATH=`realpath $0`
-source ${SELF_PATH%/spacewrapper.sh}/configs.conf
+. $3
+. $4
 
 SAMPLE=$1
 
@@ -18,8 +19,10 @@ if [ -d $OUTPUT_DIR/$SAMPLE ]
 then
         rm -drf $OUTPUT_DIR/$SAMPLE
 fi
- 
+
+echo "create dir $INPUT_DIR/$SAMPLE" 
 mkdir -p $INPUT_DIR/$SAMPLE
+echo "create dir $OUTPUT_DIR/$SAMPLE"
 mkdir -p $OUTPUT_DIR/$SAMPLE
 
 find $SAMPLE_PATH -name "*$SAMPLE*" | xargs -I {} ln -s {} $INPUT_DIR/$SAMPLE/
@@ -55,7 +58,7 @@ then
 	python3 $GENMATRIX > SMT_summary.txt
 fi
 
-$PARSER
+#$PARSER
 
 exit
 #echo -e "spaceranger arguments set:\n$SPACERANGER count --id=$SAMPLE --fastqs=$INPUT_DIR/$SAMPLE/ --sample=$SAMPLE --transcriptome=$REF_APP --localcores=$CORE --localmem=$MEM --unknown-slide --image=$2" >> run.info
