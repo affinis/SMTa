@@ -24,7 +24,7 @@ then
 elif [ "`grep -o -m 1 'spaceranger-[0-9]' <<< $SPR_PATH`" = "spaceranger-2" ]
 then
 	echo "Using spaceranger 2.0.0 ref"
-	sed -i "s|^Reference=.*|Reference=$SPR_PATH/external/spaceranger_tiny_ref|g" $SC_PATH/samples.info
+	sed -i "s|^REF.*|REF=$SPR_PATH/external/spaceranger_tiny_ref|g" $SC_PATH/samples.info
 else
 	echo "tiny reference of spaceranger not found, you may provide an incorrect spaceranger path while installing"
 fi
