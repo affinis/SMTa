@@ -26,6 +26,10 @@ run test data under the directory of spaceranger software
 ```
 
 ## run SMTa with your own data start from fastq
+Two ways are provided for users to run their own data.
+1. specify arguments with command line
+```Bash
+bash run_SMTa.sh -
 
 ## run SMTa start from an existing directory of spaceranger output
 
