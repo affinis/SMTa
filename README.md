@@ -36,26 +36,36 @@ Before that, you should modify "sample.info" in SMTa directory, remember all the
 ```Bash
 #!/bin/bash
 
-#specify reference
+#specify reference here
 REF=/tmpdata/LyuLin/Tools/spaceranger-1.3.1/external/spaceranger_tiny_ref/1.0.0
 
+#specify fastq path
 SAMPLE_PATH=/tmpdata/LyuLin/Tools/spaceranger-1.3.1/external/spaceranger_tiny_inputs/fastqs
 
-A=tinytest
+#first field of fastq file name, for example, "tinytest_S1_L001_R1.fastq.gz" and "tinytest_S1_L001_R2.fastq.gz" are fastqs of one sample, the sample ID is "tinytest".
+A="tinytest"
 B=""
 C=""
 D=""
 
+##specify image path, take care that for spaceranger2.0, it can reorient image automaticly while spaceranger1.0 not, for spaceranger1.0 you should reorient the image to put the sandglass-like shape at upleft position.
 A_image=/tmpdata/LyuLin/Tools/spaceranger-1.3.1/external/spaceranger_tiny_inputs/image/tinyimage.jpg
 B_image=""
 C_image=""
 D_image=""
 ```
+Then, just run SMTa using following command.
 ```Bash
 ./run_SMTa.sh -c sample.info
 ```
 
 ## run SMTa start from an existing directory of spaceranger output
+If you have run spaceranegr before with your own visium data (or you have downloaded some public datasets from 10x genomics official website), SMTa can also be applied when bam files are available in these data.
+```Bash
+cd $SPACERANGER_OUTS_DIR
+bash $PATH_TO_SMTa/src/microperc.sh -u 1 -b possorted_genome_bam.bam -d $ABSOLUTE_PATH_OF_NT_DATABASE
+python3 $PATH_TO_SMTa/src/SMT_mtx_gener_blast.py > SMT_summary.txt
+```
 
 ## analysis with R
 
