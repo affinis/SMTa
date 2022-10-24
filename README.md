@@ -20,19 +20,37 @@ cd SMTa
 bash install_SMTa.sh -n $ABSOLUTE_PATH_OF_NT_DATABASE -b $ABSOLUTE_PATH_OF_BLASTN -s $ABSOLUTE_PATH_OF_SPACERANGER
 ```
 ## test run
-run test data under the directory of spaceranger software 
+Run test data under the directory of spaceranger software 
 ```Bash
 ./run_SMTa_test.sh
 ```
 
 ## run SMTa with your own data start from fastq
 Two ways are provided for users to run their own data.
-1. specify arguments with command line
+1. Specify arguments with command line
 ```Bash
 ./run_SMTa.sh -d $ABSOLUTE_PATH_OF_SAMPLE_DIRECTORY -s $SAMPLE_ID -p $ABSOLUTE_PATH_OF_SAMPLE_IMAGE -r $ABSOLUTE_REFERENCE_PATH
 ```
-2. specify arguments with the configuration file "sample.info", this way can run 4 sample (sample number with a typical slide) in order.\
-Before that, you should modify "sample.info" in SMTa directory, remember all the path should be absolute path.
+2. Specify arguments with the configuration file "sample.info", this way can run 4 sample (sample number with a typical slide) in order.\
+Before that, you should modify "sample.info" in SMTa directory, remember all the path should be absolute path, here is an example:
+```Bash
+#!/bin/bash
+
+#specify reference
+REF=/tmpdata/LyuLin/Tools/spaceranger-1.3.1/external/spaceranger_tiny_ref/1.0.0
+
+SAMPLE_PATH=/tmpdata/LyuLin/Tools/spaceranger-1.3.1/external/spaceranger_tiny_inputs/fastqs
+
+A=tinytest
+B=""
+C=""
+D=""
+
+A_image=/tmpdata/LyuLin/Tools/spaceranger-1.3.1/external/spaceranger_tiny_inputs/image/tinyimage.jpg
+B_image=""
+C_image=""
+D_image=""
+```
 ```Bash
 ./run_SMTa.sh -c sample.info
 ```
