@@ -39,11 +39,3 @@ bash src/main.sh $SC_PATH/samples.info $SC_PATH/src/configs.conf
 sed -i "s|^SAMPLE_PATH=.*|SAMPLE_PATH=\"\"|g" samples.info
 sed -i -e "s|^A=.*|A=\"\"|g" -e "s|^A_image=|A_image=\"\"|g" samples.info
 sed -i "s|^REF=.*|REF=\"\"|g" samples.info
-sed -i "s|^SAMPLE_PATH=.*|SAMPLE_PATH=\"\"|g" src/configs.conf
-sed -i -e "s|^A=.*|A=\"\"|g" -e "s|^A_image=|A_image=\"\"|g" src/configs.conf
-sed -i "s|^REF=.*|REF=\"\"|g" src/configs.conf
-
-
-sed -i "s|^SAPMLES=.*|SAPMLES=|g" samples.info
-sed -i -e "s|^A=.*|A=|g" -e "s|^A_image=.*|A_image=|g" samples.info
-sed -i "s|^Reference=.*|Reference=|g" samples.info
