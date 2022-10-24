@@ -61,7 +61,7 @@ Then, just run SMTa using following command.
 ./run_SMTa.sh -c sample.info
 ```
 
-## run SMTa start from an existing directory of spaceranger output
+## run SMTa start from spaceranger output
 If you have run spaceranegr before with your own visium data (or you have downloaded some public datasets from 10x genomics official website), SMTa can also be applied when bam files are available in these data.
 ```Bash
 cd $SPACERANGER_OUTS_DIR
