@@ -29,7 +29,13 @@ run test data under the directory of spaceranger software
 Two ways are provided for users to run their own data.
 1. specify arguments with command line
 ```Bash
-bash run_SMTa.sh -
+./run_SMTa.sh -d $ABSOLUTE_PATH_OF_SAMPLE_DIRECTORY -s $SAMPLE_ID -p $ABSOLUTE_PATH_OF_SAMPLE_IMAGE -r $ABSOLUTE_REFERENCE_PATH
+```
+2. specify arguments with the configuration file "sample.info", this way can run 4 sample (sample number with a typical slide) in order.\n
+Before that, you should modify "sample.info" in SMTa directory, remember all the path should be absolute path.
+```Bash
+./run_SMTa.sh -c sample.info
+```
 
 ## run SMTa start from an existing directory of spaceranger output
 
