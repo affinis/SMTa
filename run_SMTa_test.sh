@@ -13,7 +13,7 @@ echo "spaceranger path $SPR_PATH"
 
 echo "testing SMTa via sample file......"
 
-sed -i "s|^SAPMLE_PATH=.*|SAPMLE_PATH=$SPR_PATH/external/spaceranger_tiny_inputs/fastqs|g" $SC_PATH/samples.info
+sed -i "s|^SAMPLE_PATH.*|SAMPLE_PATH=$SPR_PATH/external/spaceranger_tiny_inputs/fastqs|g" $SC_PATH/samples.info
 sed -i -e "s|^A=.*|A=tinytest|g" -e "s|^A_image=.*|A_image=$SPR_PATH/external/spaceranger_tiny_inputs/image/tinyimage.jpg|g" $SC_PATH/samples.info
 
 if [ "`grep -o -m 1 'spaceranger-[0-9]' <<< $SPR_PATH`" = "spaceranger-1" ]
