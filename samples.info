@@ -3,7 +3,7 @@
 #specify reference
 REF=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_ref
 
-SAMPLE_PATH=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_inputs/fastqs
+SAMPLE_PATH=""
 
 A=tinytest
 B=""

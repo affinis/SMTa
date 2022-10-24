@@ -500,3 +500,25 @@ spaceranger arguments set:
 /data/LyuLin/Download/spaceranger-2.0.0/spaceranger count --id=tinytest --fastqs=/data/LyuLin/Scripts/SMTa/input/tinytest/ --sample=tinytest --transcriptome=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_ref --localcores=64 --localmem=512 --unknown-slide visium-1 --image=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_inputs/image/tinyimage.jpg
 Mon Oct 24 13:53:40 CST 2022
 Successful
+Mon Oct 24 14:13:56 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-2.0.0/spaceranger count --id=tinytest --fastqs=/data/LyuLin/Scripts/SMTa/input/tinytest/ --sample=tinytest --transcriptome=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_ref --localcores=64 --localmem=512 --unknown-slide visium-1 --image=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_inputs/image/tinyimage.jpg
+Mon Oct 24 14:14:42 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-2.0.0/spaceranger count --id=tinytest --fastqs=/data/LyuLin/Scripts/SMTa/input/tinytest/ --sample=tinytest --transcriptome=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_ref --localcores=64 --localmem=512 --unknown-slide visium-1 --image=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_inputs/image/tinyimage.jpg
+Mon Oct 24 14:22:30 CST 2022
+Successful
+Mon Oct 24 14:26:28 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-2.0.0/spaceranger count --id=tinytest --fastqs=/data/LyuLin/Scripts/SMTa/input/tinytest/ --sample=tinytest --transcriptome=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_ref --localcores=64 --localmem=512 --unknown-slide visium-1 --image=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_inputs/image/tinyimage.jpg
+Mon Oct 24 14:34:01 CST 2022
+Successful
+Mon Oct 24 14:41:58 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-2.0.0/spaceranger count --id=tinytest --fastqs=/data/LyuLin/Scripts/SMTa/input/tinytest/ --sample=tinytest --transcriptome=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_ref --localcores=64 --localmem=512 --unknown-slide visium-1 --image=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_inputs/image/tinyimage.jpg
+Mon Oct 24 14:49:40 CST 2022
+Successful
