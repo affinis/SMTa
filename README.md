@@ -85,5 +85,7 @@ Then, get an overview of microbe distributes if you like.
 ```
 SMTPlotMod(msrt,'nCount_Microbe',log.scale=T)
 ```
+![图片](https://user-images.githubusercontent.com/92193789/198481653-cf5332c1-895c-4f48-834e-75312ebcf5ea.png)
+
 
 ## trouble shooting
