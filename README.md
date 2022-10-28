@@ -69,6 +69,11 @@ bash $PATH_TO_SMTa/src/microperc.sh -u 1 -b possorted_genome_bam.bam -d $ABSOLUT
 python3 $PATH_TO_SMTa/src/SMT_mtx_gener_blast.py > SMT_summary.txt
 ```
 
-## analysis with R
+## import microbial data into seurat object
+```
+setwd('$PATH_TO_SMTa')
+source('./SMT_core_functions.R')
+msrt<-CreateSeuratFromSMT(SMT.out.path='$PATH_TO_SPACERANGER_OUTS_DIR')
+```
 
 ## trouble shooting
