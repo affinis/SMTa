@@ -68,13 +68,23 @@ cd $SPACERANGER_OUTS_DIR
 bash $PATH_TO_SMTa/src/microperc.sh -u 1 -b possorted_genome_bam.bam -d $ABSOLUTE_PATH_OF_NT_DATABASE
 python3 $PATH_TO_SMTa/src/SMT_mtx_gener_blast.py > SMT_summary.txt
 ```
+Final results should include 'matrix.mdx' and 'possorted_genome_bam.merged.microbe.tsv' and several tmp file except for spaceranger outputs.
 
 ## import microbial data into seurat object
-It should be noticed that for spaceranger 2.x.x, there is a file called 'tissue_positions.csv' in dir 'spatial' instead of 'tissue_positions_list.csv' in the context of spaceranger 1.x.x, this will cause error while reading this file with 'CreateSeuratFromSMT', just use 'sed "1d" tissue_positions.csv > tissue_positions_list.csv' to solve it.
+It should be noticed that for spaceranger 2.x.x, there is a file called 'tissue_positions.csv' in dir 'spatial' instead of 'tissue_positions_list.csv' in the context of spaceranger 1.x.x, this will cause error while reading this file with 'CreateSeuratFromSMT', just use 'sed "1d" tissue_positions.csv > tissue_positions_list.csv' to solve it.<br>
+
+Here's an example showing a basic usage of functions in 'SMT_core_functions.R' using a test data from our paper.<br>
+
+First, read data under spaceranger outs dir including microbial data
 ```
 setwd('$PATH_TO_SMTa')
 source('./SMT_core_functions.R')
-msrt<-CreateSeuratFromSMT(SMT.out.path='$PATH_TO_SPACERANGER_OUTS_DIR')
+msrt<-CreateSeuratFromSMT('./output/testdata/')
+
+```
+Then, get an overview of microbe distributes if you like.
+```
+SMTPlotMod(msrt,'nCount_Microbe',log.scale=T)
 ```
 
 ## trouble shooting
