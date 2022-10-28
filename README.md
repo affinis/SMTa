@@ -80,7 +80,6 @@ First, read data under spaceranger outs dir including microbial data
 setwd('$PATH_TO_SMTa')
 source('./SMT_core_functions.R')
 msrt<-CreateSeuratFromSMT('./output/testdata/')
-
 ```
 Then, get an overview of microbe distributes if you like.
 ```
