@@ -5,7 +5,7 @@ library('ape')
 library('Rsamtools')
 library('agrmt')
 
-source('/data/LyuLin/Scripts/spatial_scripts/Spatial_core_functions.R')
+source('./Spatial_core_functions.R')
 
 #filter microbial containing spots by UMI count
 filterMicrobeSpot<-function(msrt,feature,min.count){
