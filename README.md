@@ -81,11 +81,38 @@ setwd('$PATH_TO_SMTa')
 source('./SMT_core_functions.R')
 msrt<-CreateSeuratFromSMT('./output/testdata/')
 ```
-Then, get an overview of microbe distributes if you like.
+Then, get an overview of microbe distribution if you like.
 ```
 SMTPlotMod(msrt,'nCount_Microbe',log.scale=T)
 ```
 ![图片](https://user-images.githubusercontent.com/92193789/198481653-cf5332c1-895c-4f48-834e-75312ebcf5ea.png)
+
+You can get composition of microbe-containing spots by use 'SMTStackPlot':
+```
+SMTStackPlot(msrt,min.nCount = 50,taxa.threshold = 0.1)
+```
+![图片](https://user-images.githubusercontent.com/92193789/198483824-1933d177-c796-4021-ab53-3b1a8b0b4895.png)
+
+Or you want higher taxa level view:
+```
+msrt<-SMTlevel(msrt,"kingdom")
+SMTStackPlot(msrt,min.nCount = 50,taxa.threshold = 0.1)
+```
+![图片](https://user-images.githubusercontent.com/92193789/198485553-304acc29-cd5e-405e-a8ac-ee3bfb13d436.png)
+
+You can view certain taxon in feature plot.
+```
+msrt<-SMTlevel(msrt,"genus")
+SMTPlotMod(msrt,'genus-Lactobacillus',log.scale=T)
+```
+![图片](https://user-images.githubusercontent.com/92193789/198486673-4bbb8152-9e17-4472-87c5-967d84cfd90c.png)
+
+You can also view multiple taxa in a single plot (not recomended, just for showing):
+```
+SMTCoPlot(test,c("genus-Clostridium","genus-Duncaniella","genus-Staphylococcus"),tissue.non.tissue.colors = c("grey","white"),alpha = c(0.25,1),min.count = 8,log = T)
+```
+![图片](https://user-images.githubusercontent.com/92193789/198494247-bacfcc63-cddd-4679-893b-cfafa2bcb10a.png)
+
 
 
 ## trouble shooting
