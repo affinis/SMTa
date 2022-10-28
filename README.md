@@ -70,6 +70,7 @@ python3 $PATH_TO_SMTa/src/SMT_mtx_gener_blast.py > SMT_summary.txt
 ```
 
 ## import microbial data into seurat object
+It should be noticed that for spaceranger 2.x.x, there is a file called 'tissue_positions.csv' in dir 'spatial' instead of 'tissue_positions_list.csv', this will cause error while reading this file with 'CreateSeuratFromSMT', just use 'sed "1d" tissue_positions.csv > tissue_positions_list.csv' to solve it.
 ```
 setwd('$PATH_TO_SMTa')
 source('./SMT_core_functions.R')
