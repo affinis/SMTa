@@ -852,7 +852,7 @@ call.snp.from.sam<-function(sam.formated,ref){
   return(snp.plot.data)
 }
 
-SMTCoPlot<-function(srt,features,pt.size=1.1,alpha=c(0.1,6),title="nCount_SMT",
+SMTCoPlot<-function(srt,features,pt.size=1.1,alpha=c(0.1,6),title="nCount_SMT",log=FALSE,
                      tissue.non.tissue.colors=c("darkgrey","lightgrey"),min.count=0,max.count=NULL){
   coord=srt@images$slice1@coordinates
   coord=rownames_to_column(coord,var="barcode")
@@ -865,6 +865,9 @@ SMTCoPlot<-function(srt,features,pt.size=1.1,alpha=c(0.1,6),title="nCount_SMT",
   }
   count$count[count$count<min.count]=0
   count$count[count$count>max.count]=max.count
+  if(log){
+    count$count<-log2(count$count+1)
+  }
   data=left_join(count,coord,by="barcode")
   #plot background
   plot=ggplot(data)+geom_point(data=data %>% dplyr::filter(.,tissue==0),aes(x=imagecol,y=imagerow),color=tissue.non.tissue.colors[2],size=pt.size)+
