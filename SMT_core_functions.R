@@ -5,7 +5,7 @@ library('ape')
 library('Rsamtools')
 library('agrmt')
 
-source('./Spatial_core_functions.R')
+source('/data/LyuLin/Scripts/spatial_scripts/Spatial_core_functions.R')
 
 #filter microbial containing spots by UMI count
 filterMicrobeSpot<-function(msrt,feature,min.count){
@@ -98,6 +98,63 @@ CreateSeuratFromSMT<-function(SMT.out.path,taxa.level="genus",mode="combined"){
   allfeatures=raw
   taxadb=read.delim(paste0(SMT.out.path,'/possorted_genome_bam.merged.microbe.tsv'),header=F)
   taxadb=taxadb[,c(4,(ncol(taxadb)-7):ncol(taxadb))]
+  colnames(taxadb)<-c("taxid","superkingdom","kingdom","phylum","class","order","family","genus","species")
+  taxadb[taxadb$kingdom=="kingdom_","kingdom"]<-taxadb[taxadb$kingdom=="kingdom_","superkingdom"] %>% gsub("super","",.)
+  taxadb[taxadb$kingdom=="kingdom_","kingdom"]<-"kingdom_Unknown"
+  taxadb[taxadb$phylum=="phylum_","phylum"]<-"phylum_Unknown"
+  taxadb[taxadb$class=="class_","class"]<-"class_Unknown"
+  taxadb[taxadb$order=="order_","order"]<-"order_Unknown"
+  taxadb[taxadb$family=="family_","family"]<-"family_Unknown"
+  taxadb[taxadb$genus=="genus_","genus"]<-"genus_Unknown"
+  taxadb=taxadb %>% unique()
+  rownames(taxadb)=taxadb$taxid
+  taxadb=taxadb[,colnames(taxadb)!="taxid" & colnames(taxadb)!="superkingdom"]
+  taxahier=taxadb[rownames(allfeatures),]
+  phylo=phyloseq(otu_table(allfeatures,taxa_are_rows = T),tax_table(taxahier %>% as.matrix()))
+  meta=data.frame(row.names = phylo@otu_table@.Data %>% colnames(),spot=phylo@otu_table@.Data %>% colnames())
+  sample_data(phylo)<-meta
+  phylo_level=taxa_level(phylo,taxa.level)
+  phylo_count<-phylo_level@otu_table@.Data %>% t
+  assay_phyloseq<-CreateAssayObject(phylo_count)
+  if(mode=="microbe"){
+    mSeurat@assays$Phyloseq_level=assay_phyloseq
+    mSeurat@assays$Phyloseq_level@key="spatial_"
+    mSeurat@assays$Phyloseq_raw=phylo
+    DefaultAssay(mSeurat)="Phyloseq_level"
+    return(mSeurat)
+  }else if(mode=="combined"){
+    cSeurat=Load10X_Spatial(SMT.out.path,filter.matrix=F,filename="raw_feature_bc_matrix.h5")
+    cSeurat@assays$Phyloseq_level=assay_phyloseq
+    cSeurat@assays$Phyloseq_level@key="spatial_"
+    cSeurat@assays$Phyloseq_raw=phylo
+    DefaultAssay(cSeurat)="Phyloseq_level"
+    cSeurat=AddMetaData(cSeurat,metadata=colSums(cSeurat),col.name="nCount_Microbe")
+    nfeature=colSums(cSeurat@assays$Phyloseq_level@counts>0)
+    cSeurat=AddMetaData(cSeurat,metadata=nfeature,col.name="nFeature_Microbe")
+    DefaultAssay(cSeurat)="Phyloseq_level"
+    return(cSeurat)
+  }else{
+    stop("Invalid mode, microbe or combined")
+  }
+}
+
+CreateSeuratFromSMT.MRCA<-function(SMT.out.path,taxa.level="genus",mode="combined"){
+  #create seurat object
+  raw=read.delim(paste0(SMT.out.path,'/matrix.mdx'),row.names = 1)
+  raw$barcode=NULL
+  colnames(raw)=colnames(raw) %>% gsub(".","-",fixed = T,.)
+  tSeurat=Load10X_Spatial(SMT.out.path,filter.matrix = F,filename = "raw_feature_bc_matrix.h5")
+  allbarcodes=Cells(tSeurat)
+  invalidbarcodes=allbarcodes[!(allbarcodes %in% colnames(raw))]
+  zeros=data.frame(row.names = row.names(raw),matrix(0,nrow = nrow(raw),ncol = length(invalidbarcodes)))
+  colnames(zeros)=invalidbarcodes
+  raw<-cbind(raw,zeros)
+  mSeurat=CreateSeuratObject(raw,assay="Spatial")
+  mSeurat@images=tSeurat@images
+  mSeurat@images$slice1@coordinates=mSeurat@images$slice1@coordinates[allbarcodes,]
+  #create phyloseq object
+  allfeatures=raw
+  taxadb=read.delim(paste0(SMT.out.path,'/taxa.tsv'),header=F)
   colnames(taxadb)<-c("taxid","superkingdom","kingdom","phylum","class","order","family","genus","species")
   taxadb[taxadb$kingdom=="kingdom_","kingdom"]<-taxadb[taxadb$kingdom=="kingdom_","superkingdom"] %>% gsub("super","",.)
   taxadb[taxadb$kingdom=="kingdom_","kingdom"]<-"kingdom_Unknown"
