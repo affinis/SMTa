@@ -1,16 +1,19 @@
 #!/bin/bash
 
+#mode, "SMT" or "SMT.MRCA" or "default (just run spaceranger)"
+MODE="SMT"
+
 #specify reference
-REF="/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0"
+REF=""
 
-SAMPLE_PATH="/data/LyuLin/Spatial/fastqs/202210"
+SAMPLE_PATH=""
 
-A="ST2210CLLX1X"
-B="ST2210ZJCR1X"
-C="ST2210ZJCR2X"
-D="ST2210ZJCR3X"
+A=""
+B=""
+C=""
+D=""
 
-A_image="/data/LyuLin/Scripts/SMTa/images/ST2210CLLX1X.jpg"
-B_image="/data/LyuLin/Scripts/SMTa/images/ST2210ZJCR1X.jpg"
-C_image="/data/LyuLin/Scripts/SMTa/images/ST2210ZJCR2X.jpg"
-D_image="/data/LyuLin/Scripts/SMTa/images/ST2210ZJCR3X.jpg"
+A_image=""
+B_image=""
+C_image=""
+D_image=""
