@@ -9,6 +9,7 @@ SELF_PATH=`realpath $0`
 . $4
 
 SAMPLE=$1
+QTAXA="`dirname $SELF`/querytaxa.py `dirname $SELF`"
 
 if [ -d $INPUT_DIR/$SAMPLE ]
 then
@@ -56,6 +57,11 @@ if [ "$MODE" == "SMT" ]
 then
 	$MIPMAIN -i possorted_genome_bam.bam -u 1 -f 0 -t $CORE -d $NT
 	python3 $GENMATRIX > SMT_summary.txt
+elif [ "$MODE" == "SMT.MRCA" ]
+then
+	$MIPMAIN -i possorted_genome_bam.bam -u 1 -f 0 -t $CORE -d $NT
+	python3 ${GENMATRIX%.py}.MRCA.py > SMT_summary.txt
+	cat taxaids.lst | $QTAXA > taxa.tsv
 fi
 
 #$PARSER

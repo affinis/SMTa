@@ -78,7 +78,7 @@ fi
 
 
 #blast against nt database
-blastn -query ${BAM%.bam}.unmapped.fasta -word_size 21 -db $DB -qcov_hsp_perc 60 -perc_identity 80 -outfmt '6 qseqid staxid stitle length evalue pident qcovus' -max_target_seqs 1 -max_hsps 1 -culling_limit 1 -num_threads $THREADS > unmapped.nonpolyB.blast.tsv
+blastn -query ${BAM%.bam}.unmapped.fasta -db $DB -qcov_hsp_perc 80 -perc_identity 80 -outfmt '6 qseqid staxid stitle length evalue pident qcovus' -max_target_seqs 1 -max_hsps 1 -culling_limit 1 -num_threads $THREADS > unmapped.nonpolyB.blast.tsv
 
 #screen for microbe blast hits
 cat unmapped.nonpolyB.blast.tsv | cut -f 2 | python3 $QTAXA > ${BAM%.bam}.taxa.tsv

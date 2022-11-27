@@ -522,3 +522,27 @@ spaceranger arguments set:
 /data/LyuLin/Download/spaceranger-2.0.0/spaceranger count --id=tinytest --fastqs=/data/LyuLin/Scripts/SMTa/input/tinytest/ --sample=tinytest --transcriptome=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_ref --localcores=64 --localmem=512 --unknown-slide visium-1 --image=/data/LyuLin/Download/spaceranger-2.0.0/external/spaceranger_tiny_inputs/image/tinyimage.jpg
 Mon Oct 24 14:49:40 CST 2022
 Successful
+Tue Nov 8 22:20:18 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-2.0.0/spaceranger count --id=ST2210CLLX1X --fastqs=/data/LyuLin/Scripts/SMTa/input/ST2210CLLX1X/ --sample=ST2210CLLX1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide visium-1 --image=/data/LyuLin/Scripts/SMTa/images/ST2210CLLX1X.jpg
+Wed Nov 9 01:49:24 CST 2022
+Successful
+Wed Nov 9 12:03:58 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-2.0.0/spaceranger count --id=ST2210ZJCR1X --fastqs=/data/LyuLin/Scripts/SMTa/input/ST2210ZJCR1X/ --sample=ST2210ZJCR1X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide visium-1 --image=/data/LyuLin/Scripts/SMTa/images/ST2210ZJCR1X.jpg
+Wed Nov 9 17:05:39 CST 2022
+Successful
+Thu Nov 10 13:33:34 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-2.0.0/spaceranger count --id=ST2210ZJCR2X --fastqs=/data/LyuLin/Scripts/SMTa/input/ST2210ZJCR2X/ --sample=ST2210ZJCR2X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide visium-1 --image=/data/LyuLin/Scripts/SMTa/images/ST2210ZJCR2X.jpg
+Thu Nov 10 18:25:58 CST 2022
+Successful
+Sat Nov 12 18:10:28 CST 2022
+New sample started!
+spaceranger arguments set:
+/data/LyuLin/Download/spaceranger-2.0.0/spaceranger count --id=ST2210ZJCR3X --fastqs=/data/LyuLin/Scripts/SMTa/input/ST2210ZJCR3X/ --sample=ST2210ZJCR3X --transcriptome=/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0 --localcores=64 --localmem=512 --unknown-slide visium-1 --image=/data/LyuLin/Scripts/SMTa/images/ST2210ZJCR3X.jpg
+Sat Nov 12 23:59:32 CST 2022
+Successful

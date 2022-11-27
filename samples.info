@@ -1,16 +1,16 @@
 #!/bin/bash
 
 #specify reference
-REF=""
+REF="/data/LyuLin/Ref/SpacerangerRef/refdata-cellranger-GRCh38-3.0.0"
 
-SAMPLE_PATH=""
+SAMPLE_PATH="/data/LyuLin/Spatial/fastqs/202210"
 
-A=""
-B=""
-C=""
-D=""
+A="ST2210CLLX1X"
+B="ST2210ZJCR1X"
+C="ST2210ZJCR2X"
+D="ST2210ZJCR3X"
 
-A_image=""
-B_image=""
-C_image=""
-D_image=""
+A_image="/data/LyuLin/Scripts/SMTa/images/ST2210CLLX1X.jpg"
+B_image="/data/LyuLin/Scripts/SMTa/images/ST2210ZJCR1X.jpg"
+C_image="/data/LyuLin/Scripts/SMTa/images/ST2210ZJCR2X.jpg"
+D_image="/data/LyuLin/Scripts/SMTa/images/ST2210ZJCR3X.jpg"
