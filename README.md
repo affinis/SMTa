@@ -1,4 +1,4 @@
-# SMTa
+# SMT
 Spatial meta-transcriptome analysis pipeline
 
 ## requirement
