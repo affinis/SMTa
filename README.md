@@ -1,6 +1,6 @@
 # SMT
-publication: https://genome.cshlp.org/content/early/2023/03/27/gr.277178.122.full.pdf \
-Spatial meta-transcriptome analysis pipeline
+Spatial meta-transcriptome analysis pipeline \
+publication: https://genome.cshlp.org/content/early/2023/03/27/gr.277178.122.full.pdf 
 
 ## requirement
 SMTa depends on several toolkits, please install/download following tool/database/R package in your linux and R respectively before using SMTa.
