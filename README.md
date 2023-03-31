@@ -1,5 +1,5 @@
 # SMT
-publication: https://genome.cshlp.org/content/early/2023/03/27/gr.277178.122.full.pdf
+publication: https://genome.cshlp.org/content/early/2023/03/27/gr.277178.122.full.pdf \
 Spatial meta-transcriptome analysis pipeline
 
 ## requirement
