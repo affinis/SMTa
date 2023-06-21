@@ -66,7 +66,7 @@ Then, just run SMTa using following command.
 If you have run spaceranegr before with your own visium data (or you have downloaded some public datasets from 10x genomics official website), SMTa can also be applied when bam files are available in these data.
 ```Bash
 cd $SPACERANGER_OUTS_DIR
-bash $PATH_TO_SMTa/src/microperc.sh -u 1 -b possorted_genome_bam.bam -d $ABSOLUTE_PATH_OF_NT_DATABASE
+bash $PATH_TO_SMTa/src/microperc.sh -u 1 -i possorted_genome_bam.bam -d $ABSOLUTE_PATH_OF_NT_DATABASE
 python3 $PATH_TO_SMTa/src/SMT_mtx_gener_blast.py > SMT_summary.txt
 ```
 Final results should include 'matrix.mdx' and 'possorted_genome_bam.merged.microbe.tsv' and several tmp file except for spaceranger outputs.
